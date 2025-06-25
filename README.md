@@ -18,7 +18,6 @@ The analysis applies a full data science pipeline in **R**, including:
 - Source: [data.gov.uk – CPS Outcomes by Principal Offence Category](https://www.gov.uk/government/statistics)
 - License: Open Government License (OGL)
 - Period: January 2014 – December 2015
-- Notes: One month (Nov 2015) was missing and imputed using logical methods.
 
 ## 🧪 Experimental Setup
 
