@@ -29,7 +29,16 @@ All experiments were conducted on:
 
 ## 📚 R Libraries Used
 
-Libraries include `dplyr`, `ggplot2`, `tidyr`, `lubridate`, `car`, `cluster`, `caret`, `xgboost`, and others for statistical analysis and machine learning.
+The project relies on several R packages for data manipulation, visualization, statistical analysis, and machine learning, including:
+
+- `tidyverse`, `dplyr`, `ggplot2`, `reshape2`, `caret`, `broom`, `GGally`, `ggpubr`
+- `glmnet`, `cluster`, `factoextra`, `dbscan`, `randomForest`, `xgboost`, `fmsb`
+
+To install all required packages in one step, you can run:
+
+```r
+source("install_packages.R")
+```
 
 ## 📈 Key Highlights
 
