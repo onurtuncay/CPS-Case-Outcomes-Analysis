@@ -2,6 +2,20 @@
 
 This repository presents a comprehensive data science analysis on criminal case outcomes from the Crown Prosecution Service (CPS), focusing on patterns in convictions and unsuccessful prosecutions using open government data.
 
+## 🗂 Project Structure
+
+├── cps_case_outcomes_analysis.R # Main R script for data processing, analysis, and modeling
+
+├── cps_case_outcomes_analysis_report.pdf # Final academic report (PDF format)
+
+├── install_packages.R # Script to install required R libraries
+
+├── README.md # Project overview and documentation
+
+├── LICENSE # MIT License
+
+└── .gitattributes # Git metadata and encoding rules
+
 ## 📊 Project Summary
 
 The analysis applies a full data science pipeline in **R**, including:
@@ -12,6 +26,7 @@ The analysis applies a full data science pipeline in **R**, including:
 - Predictive modelling (OLS, Ridge, Lasso)
 - Clustering (K-Means, Hierarchical, DBSCAN)
 - Classification models (Random Forest, Logistic Regression, XGBoost)
+  
 
 ## 📁 Dataset
 
