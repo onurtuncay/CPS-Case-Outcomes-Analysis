@@ -26,7 +26,38 @@ The analysis applies a full data science pipeline in **R**, including:
 - Predictive modelling (OLS, Ridge, Lasso)
 - Clustering (K-Means, Hierarchical, DBSCAN)
 - Classification models (Random Forest, Logistic Regression, XGBoost)
-  
+
+## 📊 Key Results Summary
+
+- 📈 **Lasso Regression** explained 90.5% of variance in drug convictions.
+- 🔍 **DBSCAN** achieved the best clustering quality with a silhouette score of 0.886.
+- 📉 **Logistic Regression** outperformed others in predicting homicide conviction with Macro F1 = 0.625.
+- 📍 Regional disparities are significant, especially in London and high-population areas.
+
+## 📏 Evaluation Metrics
+
+- **Regression**  
+  - Lasso Regression: R² = 0.905, RMSE = 47.9  
+  - OLS Regression: R² = 0.845, RMSE = 44.3  
+
+- **Clustering**  
+  - DBSCAN: Silhouette Score = 0.886  
+  - K-Means: Silhouette Score = 0.85  
+  - Hierarchical: Silhouette Score = 0.35  
+
+- **Classification** (Homicide Conviction Prediction)  
+  - Logistic Regression: Macro F1 Score = 0.625  
+  - Random Forest: Macro F1 Score = 0.620  
+  - XGBoost: Macro F1 Score = 0.620  
+
+
+## 📈 Key Highlights
+
+- Significant regional disparity in homicide and drug offence convictions
+- DBSCAN performed best among clustering methods (Silhouette Score: 0.886)
+- Lasso regression achieved the highest R² (0.905) in drug offence prediction
+- Macro F1-scores around 0.62 in homicide classification tasks
+- Extensive use of time-series and region-based analysis
 
 ## 📁 Dataset
 
@@ -55,30 +86,7 @@ To install all required packages in one step, you can run:
 source("install_packages.R")
 ```
 
-## 📏 Evaluation Metrics
 
-- **Regression**  
-  - Lasso Regression: R² = 0.905, RMSE = 47.9  
-  - OLS Regression: R² = 0.845, RMSE = 44.3  
-
-- **Clustering**  
-  - DBSCAN: Silhouette Score = 0.886  
-  - K-Means: Silhouette Score = 0.85  
-  - Hierarchical: Silhouette Score = 0.35  
-
-- **Classification** (Homicide Conviction Prediction)  
-  - Logistic Regression: Macro F1 Score = 0.625  
-  - Random Forest: Macro F1 Score = 0.620  
-  - XGBoost: Macro F1 Score = 0.620  
-
-
-## 📈 Key Highlights
-
-- Significant regional disparity in homicide and drug offence convictions
-- DBSCAN performed best among clustering methods (Silhouette Score: 0.886)
-- Lasso regression achieved the highest R² (0.905) in drug offence prediction
-- Macro F1-scores around 0.62 in homicide classification tasks
-- Extensive use of time-series and region-based analysis
 
 ## 📄 Report
 
