@@ -55,6 +55,23 @@ To install all required packages in one step, you can run:
 source("install_packages.R")
 ```
 
+## 📏 Evaluation Metrics
+
+- **Regression**  
+  - Lasso Regression: R² = 0.905, RMSE = 47.9  
+  - OLS Regression: R² = 0.845, RMSE = 44.3  
+
+- **Clustering**  
+  - DBSCAN: Silhouette Score = 0.886  
+  - K-Means: Silhouette Score = 0.85  
+  - Hierarchical: Silhouette Score = 0.35  
+
+- **Classification** (Homicide Conviction Prediction)  
+  - Logistic Regression: Macro F1 Score = 0.625  
+  - Random Forest: Macro F1 Score = 0.620  
+  - XGBoost: Macro F1 Score = 0.620  
+
+
 ## 📈 Key Highlights
 
 - Significant regional disparity in homicide and drug offence convictions
