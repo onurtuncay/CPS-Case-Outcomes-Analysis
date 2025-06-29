@@ -86,11 +86,14 @@ To install all required packages in one step, you can run:
 source("install_packages.R")
 ```
 
-
-
 ## 📄 Report
 
-📥 The full academic report is available in this repository as a PDF for offline access and easy review.
+📥 The full academic report is available as a downloadable PDF in this repository.  
+It includes detailed methodology, data preparation steps, statistical analysis, model evaluation, and references in an academic format.
+
+👉 [Download the PDF report](./cps_case_outcomes_analysis_report.pdf)
+
+---
 
 ## 📝 License
 
