@@ -1,5 +1,9 @@
 # CPS Case Outcomes Analysis (England & Wales)
 
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Made with R](https://img.shields.io/badge/Made%20with-R-1f425f.svg)](https://www.r-project.org/)
+
 This repository presents a comprehensive data science analysis on criminal case outcomes from the Crown Prosecution Service (CPS), focusing on patterns in convictions and unsuccessful prosecutions using open government data.
 
 ## 🗂 Project Structure
@@ -126,3 +130,5 @@ This project is licensed under the MIT License. The dataset is used under the Op
 **Onur Tuncay**  
 MSc Data Science – University of Gloucestershire  
 Senior Data Scientist | LinkedIn: [onur-tuncay](https://linkedin.com/in/onur-tuncay)
+
+
