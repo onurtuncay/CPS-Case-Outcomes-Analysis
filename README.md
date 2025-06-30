@@ -86,6 +86,28 @@ To install all required packages in one step, you can run:
 source("install_packages.R")
 ```
 
+## ▶️ How to Run
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/onurtuncay/CPS-Case-Outcomes-Analysis.git
+```
+
+2. Open the R script in RStudio
+
+3. Install required packages:
+
+```r
+source("install_packages.R")
+```
+
+4. Run the main script (after changing dataset directory):
+
+```r
+source("cps_case_outcomes_analysis.R")
+```
+
 ## 📄 Report
 
 📥 The full academic report is available as a downloadable PDF in this repository.  
