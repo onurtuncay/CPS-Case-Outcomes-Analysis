@@ -54,6 +54,7 @@ The analysis applies a full data science pipeline in **R**, including:
   - Random Forest: Macro F1 Score = 0.620  
   - XGBoost: Macro F1 Score = 0.620  
 
+---
 
 ## 📈 Key Highlights
 
@@ -63,12 +64,15 @@ The analysis applies a full data science pipeline in **R**, including:
 - Macro F1-scores around 0.62 in homicide classification tasks
 - Extensive use of time-series and region-based analysis
 
+  ---
+
 ## 📁 Dataset
 
 - Source: [data.gov.uk – CPS Outcomes by Principal Offence Category](https://www.data.gov.uk/dataset/89d0aef9-e2f9-4d1a-b779-5a33707c5f2c/crown-prosecution-service-case-outcomes-by-principal-offence-category-data)
-- License: Open Government License (OGL)
+- License: Open Government Licence v3.0 (OGL)
 - Period: January 2014 – December 2015
 
+Contains public sector information licensed under the Open Government Licence v3.0.
 ## 🧪 Experimental Setup
 
 All experiments were conducted on:
